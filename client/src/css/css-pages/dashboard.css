@@ -1,0 +1,23 @@
+.card-dash {
+  margin: 10px;
+  height: 90%;
+}
+
+.img-crd-dash {
+  height: 90px;
+}
+
+.btn-delete {
+  background-color: red;
+}
+
+.icon-edit {
+  color: white;
+}
+
+/* For mobile : */
+@media only screen and (max-width: 575px) {
+  .card-dash {
+    width: 131%;
+  }
+}

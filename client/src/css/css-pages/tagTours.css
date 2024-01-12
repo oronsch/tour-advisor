@@ -1,0 +1,32 @@
+.crd {
+  max-width: 600px;
+  padding: 5px;
+}
+
+.img-crd {
+  height: 120px;
+}
+
+.crd-content {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 575px) {
+  hr {
+    width: 100%;
+  }
+  .crd-group {
+    width: 100%;
+  }
+  .crd {
+    max-width: 100%;
+    padding: 5px;
+  }
+  .text-center {
+    font-size: smaller;
+  }
+  .text-start {
+    font-size: smaller;
+  }
+}

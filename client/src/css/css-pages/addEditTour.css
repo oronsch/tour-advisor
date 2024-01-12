@@ -1,0 +1,16 @@
+.addEdit-container{
+   margin: auto;
+   padding: 15px;
+   max-width: 450px;
+   align-content: center;
+    margin-top: 120px;
+}
+.tagErrMsg {
+  color: #f93154;
+  margin-top: 5px;
+  text-align: left;
+  font-size: 14px;
+}
+button{
+  width: 100%;
+}

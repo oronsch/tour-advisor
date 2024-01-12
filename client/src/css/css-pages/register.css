@@ -1,0 +1,31 @@
+.reg-con-wrap {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 350px !important;
+}
+.reg-card-wrap {
+  padding: 20px;
+}
+
+/* form input errors */
+.err-valid {
+  color: red;
+}
+
+.link-login {
+  font-size: large;
+  margin-top: 5px;
+}
+
+.sign-icon {
+  font-size: 40px;
+}
+
+/* responsive */
+/* For mobile : */
+@media only screen and (max-width: 359px) {
+  .reg-con-wrap {
+    width: 100% !important;
+  }
+}

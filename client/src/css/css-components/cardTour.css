@@ -1,0 +1,48 @@
+.crdGroup-wrap {
+  padding-bottom: 10px;
+  height: 23rem;
+}
+
+.crd {
+  width: 60rem;
+}
+
+.img-card {
+  height: 130px;
+  opacity: 0.9;
+}
+
+.colLike {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hidden-tag {
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* responsive */
+/* For mobile : */
+@media only screen and (max-width: 575px) {
+  .col-s-8 {
+    width: 100%;
+    font-size: x-small;
+  }
+}
+/* For desktop: */
+@media only screen and (max-width: 992px) and (min-width: 576px) {
+  .col-12 {
+    width: 100%;
+    height: 100%;
+    font-size: x-small;
+  }
+}

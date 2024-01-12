@@ -1,0 +1,30 @@
+.img-crd-rel {
+  height: 100px;
+}
+
+.cards-rel {
+  margin: 10px;
+  height: 92% !important;
+}
+
+.crd-title-rel {
+  font-size: 15px;
+}
+.crd-txt-rel {
+  font-size: smaller;
+}
+
+/* For mobile : */
+@media only screen and (max-width: 575px) {
+  .crd-title-rel {
+    font-size: 22px;
+  }
+  .crd-txt-rel {
+    font-size: 16px;
+  }
+  .cards-rel {
+    width: 250%;
+    font-size: x-small;
+    margin-left: 25%;
+  }
+}
